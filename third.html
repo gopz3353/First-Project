@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Tournament Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <img src="https://www.sportmonks.com/wp-content/uploads/2023/05/oldestclub.jpg" alt="Football Tournament" class="form-image">
+            <h1>Football Tournament Form</h1>
+            <form>
+                <label for="team-name">Team Name</label>
+                <input type="text" id="team-name" name="name" placeholder="Enter your team name" required><br>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter a valid email" required><br>
+                
+                <label for="id">Team ID</label>
+                <input type="number" id="id" name="id" placeholder="Enter ID" required min="1"><br>
+                
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required><br>
+                
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required><br>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

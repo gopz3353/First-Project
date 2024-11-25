@@ -1,0 +1,51 @@
+nav ul li {
+  list-style: armenian;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+* {
+  /*margin: 0;
+    padding: 0;*/
+}
+h1 {
+  border: 2px;
+  border-color: blueviolet;
+  border-style: dotted;
+}
+h2 {
+  border: 2px dotted black;
+}
+nav ul li a {
+  text-decoration: none;
+}
+#shah {
+  background-color: aquamarine;
+  size: 3px;
+  display: inline-block;
+  height: 39px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.para {
+  text-align: center;
+  line-height: 40px;
+}
+#img1{
+    width: 300px;
+    height: 250px;
+}
+#img2{
+    width: 300px;
+    height: 250px;
+}
+nav ul li a:hover{
+    color: brown;
+    transition: all 2s ease-out;
+    text-decoration: dotted;
+}
+
